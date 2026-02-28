@@ -25,7 +25,7 @@ else:
 # code indexing gives in string changes
 
 
-g = "sulli"
+g = "dog"
 ans = ""
 for i in range(len(g)-1,-1,-1):
     ans = ans + g[i]
