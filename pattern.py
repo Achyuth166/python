@@ -1,4 +1,4 @@
-#rectabgle dash pattern
+'''#rectabgle dash pattern
 r = 3
 c = 3
 for i in range(r):
@@ -193,3 +193,68 @@ for i in range(r):
         print("*", end="")
     print()
 
+
+#Full Diamond Star Pattern
+r = 9
+n = r-1
+for i in range(r-1):
+    for j in range(n-i):
+        print(" ", end="")
+    for j in range(i*2+1):
+        print("*", end="")
+    print()
+for i in range(r-1,-1,-1):
+    for j in range(n-i):
+        print(" ", end="")
+    for j in range(i*2+1):
+        print("*", end="")
+    print()
+
+
+
+#Sandglass Star Pattern
+r = 9
+n = r-1
+for i in range(r-1,-1,-1):
+    for j in range(n-i):
+        print(" ", end="")
+    for j in range(i*2+1):
+        print("*", end="")
+    print()
+for i in range(1,r):
+    for j in range(n-i):
+        print(" ", end="")
+    for j in range(i*2+1):
+        print("*", end="")
+    print()
+
+
+#hollow pyramid star pattern.
+r = 4
+for i in range(r):
+    for j in range(r-i-1):
+        print(" ", end="")
+    for j in range(i*2+1):
+        if j==0 or j==i*2 or i==r-1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()'''
+   
+
+n = 6
+for i in range(n):
+    for j in range(i+1):
+        print(j+1,end=" ")
+    print()
+
+
+n = 5
+for i in range(n):
+    for j in range(n-i-1):
+        print(" ", end="")
+    for k in range(i+1,0,-1):
+        print(k, end=" ")
+    for m in range(2,i+2):
+        print(m, end=" ")
+    print()
