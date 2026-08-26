@@ -1,4 +1,4 @@
-'''#rectabgle dash pattern
+#rectabgle dash pattern
 r = 3
 c = 3
 for i in range(r):
@@ -239,7 +239,7 @@ for i in range(r):
             print("*", end="")
         else:
             print(" ", end="")
-    print()'''
+    print()
    
 
 n = 6
